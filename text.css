@@ -1,0 +1,49 @@
+.pos1 {
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pos2 {
+    top: 50vh;
+    left: 50%;
+    transform: translateX(-100%);
+}
+.pos3 {
+    top: 105vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pos4 {
+    top: 150vh;
+    left: 40%;
+    transform: translateX(50%);
+}
+
+
+
+@media screen and (max-width: 640px)
+{
+    
+    .pos1 {
+        width: 90%;
+        left: 50%;
+    }
+        
+    .pos2 {
+        width: 90%;
+        transform: translateX(-50%);
+    }
+
+    .pos3 {
+        width: 90%;
+    }
+
+    .pos4 {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
